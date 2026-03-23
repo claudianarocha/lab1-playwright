@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Lab - Automação com Playwright</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .login-container { background-color: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; width: 350px; }
+        
+        /* Estilo para o Título de QA */
+        h2 { color: #2c3e50; margin-bottom: 10px; border-bottom: 2px solid #2980b9; padding-bottom: 10px; }
+        p.subtitle { color: #7f8c8d; font-size: 0.9em; margin-bottom: 30px; }
+        
+        .input-group { text-align: left; margin-bottom: 20px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; color: #34495e; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        input:focus { border-color: #2980b9; outline: none; box-shadow: 0 0 5px rgba(41,128,185,0.3); }
+        
+        /* Estilo para o botão Playwright */
+        button { width: 100%; padding: 12px; background-color: #2980b9; color: white; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; transition: background-color 0.3s; }
+        button:hover { background-color: #1f6391; }
+        
+        /* Área da mensagem de erro (Flash) */
+        #flash-messages { min-height: 20px; margin-bottom: 15px; }
+        .error-message { color: #c0392b; background-color: #f2dede; border: 1px solid #ebccd1; padding: 10px; border-radius: 4px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Ambiente de Teste</h2>
+    <p class="subtitle">Laboratório de Testes: Automação Playwright</p>
+    
+    <div id="flash-messages"></div>
+
+    <form id="login-form">
+        <div class="input-group">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" placeholder="Ex: qa_user" required>
+        </div>
+        
+        <div class="input-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Ex: Pw123!" required>
+        </div>
+        
+        <button type="submit">Entrar</button>
+    </form>
+</div>
+
+<script>
+    const form = document.getElementById('login-form');
+    const flashDiv = document.getElementById('flash-messages');
+
+    // Credenciais de teste simuladas (para evitar backend)
+    const VALID_USER = 'adm.automacao';
+    const VALID_PASS = 'teste@playwright';
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // Impede o envio real do formulário
+        
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+if (username === VALID_USER && password === VALID_PASS) {
+    // Redireciona para a página de sucesso
+    window.location.href = 'sucesso.html';
+
+
+       // if (username === VALID_USER && password === VALID_PASS) {
+            // Sucesso simulado: redireciona
+           // alert('Sucesso! Redirecionando para a área segura do QA.');
+            // Em produção você criaria um secure.html e usaria: window.location.href = 'secure.html';
+        } else {
+            // Falha simulada: mostra mensagem de erro (Flash)
+            flashDiv.innerHTML = '<div class="error-message">❌ Dados Inválidos! Tente novamente.</div>';
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área Logada - Automação QA</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .success-container { background-color: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; width: 450px; border-top: 5px solid #27ae60; }
+        
+        h2 { color: #2c3e50; margin-bottom: 10px; }
+        .icon { font-size: 50px; color: #27ae60; margin-bottom: 20px; }
+        
+        p { color: #7f8c8d; line-height: 1.6; }
+        
+        .status-badge { background-color: #eafaf1; color: #27ae60; padding: 5px 15px; border-radius: 20px; font-weight: bold; display: inline-block; margin-bottom: 20px; border: 1px solid #27ae60; }
+        
+        /* Botão de Logout para testar navegação de volta */
+        .btn-logout { display: inline-block; margin-top: 25px; padding: 10px 20px; background-color: #2980b9; color: white; text-decoration: none; border-radius: 4px; transition: background-color 0.3s; }
+        .btn-logout:hover { background-color: #1f6391; }
+    </style>
+</head>
+<body>
+
+<div class="success-container">
+    <div class="icon">✔</div>
+    <div class="status-badge" id="auth-status">Autenticado com Sucesso</div>
+    
+    <h2>Bem-vindo à Área Segura</h2>
+    <p>Este é um ambiente de destino após o login. <br>
+       Se o seu script Playwright chegou aqui, o teste de <strong>Caminho Feliz</strong> foi validado corretamente.</p>
+
+    <a href="index.html" class="btn-logout" id="logout-btn">Efetuar Logout</a>
+</div>
+
+</body>
+</html>
