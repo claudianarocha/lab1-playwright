@@ -22,16 +22,6 @@ Projeto criado para simular testes automatizados de login (E2E), incluindo valid
 
 #QA #TestAutomation #Playwright #E2ETesting #AutomationTesting #SoftwareTesting #QAEngineer #AutomationFramework #JavaScript #QualityAssurance #Testing
 
-## 🌍 Topics sugeridos para o GitHub
-
-qa-automation
-playwright
-test-automation
-e2e-testing
-login-test
-automation-framework
-javascript-testing
-web-testing
 
 ## 💼 Status
 
