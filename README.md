@@ -38,8 +38,7 @@ Este projeto foi criado com o objetivo de simular cenários reais de testes auto
 * Automação de testes E2E
 * Escrita de cenários de teste
 * Validação de fluxo de login
-* Organização de projeto para testes automatizados <br>
-<br>
+* Organização de projeto para testes automatizados
 
 
 
