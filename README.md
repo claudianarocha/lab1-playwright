@@ -18,11 +18,3 @@ Este repositório contém um ambiente de login para prática de automação de t
 
 Projeto criado para simular testes automatizados de login (E2E), incluindo validação de campos, autenticação e cenários de erro.
 
-## 🔎 Keywords (Tags)
-
-#QA #TestAutomation #Playwright #E2ETesting #AutomationTesting #SoftwareTesting #QAEngineer #AutomationFramework #JavaScript #QualityAssurance #Testing
-
-
-## 💼 Status
-
-🚀 Open to remote opportunities (QA Automation Engineer)
