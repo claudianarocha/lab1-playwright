@@ -21,7 +21,8 @@ Este projeto foi criado com o objetivo de simular cenários reais de testes auto
 * Validação de autenticação (login)
 * Testes positivos e negativos
 * Verificação de mensagens de erro
-* Simulação de fluxo do usuário
+* Simulação de fluxo do usuário <br>
+<br>
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -29,7 +30,8 @@ Este projeto foi criado com o objetivo de simular cenários reais de testes auto
 * CSS3
 * Playwright
 * JavaScript
-* Vercel (Deploy)
+* Vercel (Deploy) <br>
+<br>
 
 ## 🧠 Habilidades Demonstradas
 
