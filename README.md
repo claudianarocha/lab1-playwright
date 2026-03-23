@@ -1,6 +1,7 @@
 # 🎭 Laboratório de Automação de Testes - Login com Playwright
 
 Este repositório contém um ambiente de login desenvolvido para prática de automação de testes end-to-end (E2E) utilizando a ferramenta Playwright.
+<br>
 
 ## 🌐 Demonstração Online
 
