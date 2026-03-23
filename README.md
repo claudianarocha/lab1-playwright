@@ -41,14 +41,5 @@ Este projeto foi criado com o objetivo de simular cenários reais de testes auto
 * Organização de projeto para testes automatizados <br>
 <br>
 
-## 💼 Status
 
-🚀 Disponível para oportunidades como QA Automation
-🌍 Aberta a trabalho remoto e projetos internacionais <br>
-<br>
-
-## 💼 Status
-
-🚀 Disponível para oportunidades como QA Automation
-🌍 Aberta a trabalho remoto e projetos internacionais
 
