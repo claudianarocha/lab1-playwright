@@ -38,12 +38,14 @@ Este projeto foi criado com o objetivo de simular cenários reais de testes auto
 * Automação de testes E2E
 * Escrita de cenários de teste
 * Validação de fluxo de login
-* Organização de projeto para testes automatizados
+* Organização de projeto para testes automatizados <br>
+<br>
 
 ## 💼 Status
 
 🚀 Disponível para oportunidades como QA Automation
-🌍 Aberta a trabalho remoto e projetos internacionais
+🌍 Aberta a trabalho remoto e projetos internacionais <br>
+<br>
 
 ## 💼 Status
 
