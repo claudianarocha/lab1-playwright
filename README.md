@@ -5,7 +5,7 @@ Este repositório contém um ambiente de login desenvolvido para prática de aut
 
 ## 🌐 Demonstração Online
 
-https://playwright-login-test.vercel.app <br>
+https://lab1-playwright.vercel.app/index.html<br>
 <br>
 
 ## 🔐 Credenciais de Teste
