@@ -1,16 +1,18 @@
 # 🎭 Laboratório de Automação de Testes - Login com Playwright
 
-Este repositório contém um ambiente de login desenvolvido para prática de automação de testes end-to-end (E2E) utilizando a ferramenta Playwright.<br>
+Este repositório contém um ambiente de login desenvolvido para prática de automação de testes end-to-end (E2E) utilizando a ferramenta Playwright. <br>
 <br>
 
 ## 🌐 Demonstração Online
 
-https://playwright-login-test.vercel.app
+https://playwright-login-test.vercel.app <br>
+<br>
 
 ## 🔐 Credenciais de Teste
 
 * **Usuário:** admin.automacao
-* **Senha:** teste@playwright
+* **Senha:** teste@playwright <br>
+<br>
 
 ## 🧪 Sobre o Projeto
 
